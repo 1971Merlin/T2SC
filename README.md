@@ -1,11 +1,15 @@
 # T2SC
 TEC to Southern Cross Bus Adaptor
 
-A small KICad project to Adapt the Talking Electronics TEC-1 computer to the IO expansion bus used by the Southern Cross SC-1, Micrprofessor MPF-1 and similar computers.
+A small KICad project to Adapt the Talking Electronics TEC-1 computer to the IO expansion bus used by the Southern Cross SC-1, Microprofessor MPF-1 and similar computers.
 
-Basically, this adaptor breaks out the Z80 CPU's 40 pins directly to an IO connector. There is no bufffering, it is a staight signal path.
+This allows any SC-1 or MPF-1 expansion device to be fitted to the TEC-1. However it does not resolve any issues with IO port ranges or memory maps - however it provides a 'good start' in terms of interfacing. The SC-1 products on this github are also built with the TEC-1 in mind and will generally work fine as-is using this adaptor, or with minor changes.
 
-The IDC connecor pin numbering has been done in an unconventional "antclickwise" approach, to match the CPU pin numbering.
+## how it works
+
+In short, this adaptor simpy breaks out the Z80 CPU's 40 pins directly to an IO connector. There is no buffering, it is a straight signal path. Hence, this adaptor can be used with ANY Z-80 CPU based system - not just the computers mentioned here.
+
+The IDC connecor pin numbering has been done in an unconventional "antclockwise" approach, to match the CPU pin numbering. Don't let the numbering bother you, as long as the physical pin to PCB pad order is understood, then matching devices can be easily built.
 
 ### Southern Cross Bus Connector
 
