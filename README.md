@@ -18,7 +18,7 @@ The IDC connecor pin numbering has been done in an unconventional "antclockwise"
 
 ### Southern Cross Bus Connector
 
-The SC-1 schematics and PCB have undergone several revisons, but the bus connector has always remained the same, even though the pin nunbering and connector orientation have changed.
+The SC-1 schematics and PCB have undergone several revisons, but the bus connector has always remained the same, even though the pin nunbering and connector orientation labelling has been shown differently on various revisions. The v3.2 revision is correct.
 
 The following schematic snippet is taken from Craig Jones SC-1 repository at https://github.com/crsjones/Southern-Cross-Computer-z80/tree/main/SouthernCrossSBC_PCB_R32 and shows the current, correct orientation (PCB version 3.2). Note that earlier PCB revisions show the connector incorrectly orientated (flipped 180 degrees); however the PCB pads to Z-80 layout are always correct and have never changed on any PCB version.
 
