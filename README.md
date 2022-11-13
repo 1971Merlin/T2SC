@@ -30,9 +30,10 @@ Note the different pin numbering convention, but the actual pin locations are id
 ![MPF-1 bus](MPF-1%20Bus%20Connector.png?raw=true "MPF-1 Bus")
 
 
-#### relevant Links
+#### Relevant Links
 
-TEC-1 github https://github.com/tec1group
-SC-1 github https://github.com/crsjones/Southern-Cross-Computer-z80
-TEC and SC facebook Group https://www.facebook.com/groups/tec1z80
+TEC-1 github [https://github.com/tec1group]
 
+SC-1 github [https://github.com/crsjones/Southern-Cross-Computer-z80]
+
+TEC-1 and SC-1 Facebook Group [https://www.facebook.com/groups/tec1z80]
