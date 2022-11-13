@@ -10,7 +10,9 @@ The SC-1 products on this github are also built with the TEC-1 in mind and will 
 
 ## How it works
 
-In short, this adaptor simpy breaks out the Z80 CPU's 40 pins directly to an IO connector. There is no buffering, it is a straight signal path. Hence, this adaptor can be used with ANY Z-80 CPU based system - not just the computers mentioned here. Note the orientation of the connectos has been done deliberately to ensure the IDC cable is passed off 'to the left', which is the same orientation as the SC-1. This required all the Z-80 signals to be 'swapped' as the TEC's Z-80 is orientated opposite to the SC-1.
+In short, this adaptor simpy breaks out the Z80 CPU's 40 pins directly to an IO connector. There is no buffering, it is a straight signal path. Hence, this adaptor can be used with ANY Z-80 CPU based system - not just the computers mentioned here.
+
+Note the orientation of the connectors has been done deliberately to ensure the IDC cable is passed off 'to the left', which is the same as the SC-1. This arrangement requires all the Z-80 signals to be 'swapped end for end' as the TEC's Z-80 is orientated opposite to the SC-1.
 
 The IDC connecor pin numbering has been done in an unconventional "antclockwise" approach, to match the CPU pin numbering. Don't let the ping numbering bother you too much; as long as the physical pin to PCB pad order is understood, then matching devices can be easily built.
 
